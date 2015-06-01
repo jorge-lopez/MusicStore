@@ -1,0 +1,46 @@
+﻿@model List<Modelos.Autor>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<table>
+    <tr>
+
+        <th width="15%">
+            @Html.Label("Id")
+            @*@Ajax.ActionLink("Song", "Alfabetico", "Musica", new AjaxOptions { UpdateTargetId = "result", InsertionMode = InsertionMode.Replace, HttpMethod = "GET" })*@
+        </th>
+        <th width="27%">
+            @Html.Label("Nombre")
+            @*@Ajax.ActionLink("Artist", "Alfabetico", "Musica", new AjaxOptions { UpdateTargetId = "result", InsertionMode = InsertionMode.Replace, HttpMethod = "GET" })*@
+        </th>
+        <th width="15%">
+            @Html.Label("Apellido Paterno")
+        </th>
+        <th>
+            @Html.Label("Apellido Materno")
+        </th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <th width="15%">
+                @item.Id
+            </th>
+            <th width="27%">
+                @item.Nombre
+            </th>
+            <th width="15%">
+                @item.ApPaterno
+            </th>
+            <th>
+                @item.ApMaterno
+            </th>
+        </tr>
+    }
+
+</table>

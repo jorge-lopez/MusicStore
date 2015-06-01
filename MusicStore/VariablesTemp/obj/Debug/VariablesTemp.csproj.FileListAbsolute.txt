@@ -1,0 +1,9 @@
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\VariablesTemp.dll
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\VariablesTemp.pdb
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\obj\Debug\VariablesTemp.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\obj\Debug\VariablesTemp.dll
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\obj\Debug\VariablesTemp.pdb
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\BusinessLogic.dll
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\BusinessLogic.pdb
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\Modelos.dll
+C:\Users\Jorge\Desktop\MusicStore\VariablesTemp\bin\Debug\Modelos.pdb
