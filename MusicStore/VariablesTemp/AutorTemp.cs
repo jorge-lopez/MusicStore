@@ -25,5 +25,10 @@ namespace VariablesTemp
         {
             return autores.getAutores();
         }
+        public static List<Musica> getMusicaporAutor()
+        {
+            List<Musica> canciones = MusicaTemp.getMusica().OrderBy(x => x.Autor.Nombre).ToList();
+            return canciones;
+        }
     }
 }

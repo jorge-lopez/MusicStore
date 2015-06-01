@@ -23,7 +23,7 @@ namespace VariablesTemp
 
         public static List<Musica> getMusica()
         {
-            return Musica.getMusica();
+            return MusicaTemp.getMusica().OrderBy(x=>x.Nombre).ToList();
         }
     }
 }

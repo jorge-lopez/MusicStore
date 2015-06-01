@@ -15,7 +15,7 @@ namespace MusicStore.Controllers
         public ActionResult Index()
         {
             AutorTemp.Inicializar();            
-            return View(AutorTemp.getAutores());
+            return View(AutorTemp.getMusicaporAutor());
         }
     }
 }

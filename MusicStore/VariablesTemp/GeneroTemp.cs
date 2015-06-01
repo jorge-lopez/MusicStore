@@ -25,5 +25,10 @@ namespace VariablesTemp
         {
             return generos.getGeneros();
         }
+        public static List<Musica> getMusicaporGenero()
+        {
+            List<Musica> canciones = MusicaTemp.getMusica().OrderBy(x => x.Genero.Nombre).ToList();
+            return canciones;
+        }
     }
 }

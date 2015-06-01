@@ -15,7 +15,7 @@ namespace MusicStore.Controllers
         public ActionResult Index()
         {
             GeneroTemp.Inicializar();
-            return View(GeneroTemp.getAutores());
+            return View(GeneroTemp.getMusicaporGenero());
         }
     }
 }
