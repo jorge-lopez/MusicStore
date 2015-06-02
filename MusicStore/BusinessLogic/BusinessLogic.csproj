@@ -51,6 +51,10 @@
       <Project>{48011ce4-7e33-4274-b81a-a2b2c1df025d}</Project>
       <Name>Modelos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VariablesTemp\VariablesTemp.csproj">
+      <Project>{c2a0f4ec-c851-4024-a954-e84a46da3d6c}</Project>
+      <Name>VariablesTemp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

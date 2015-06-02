@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Modelos;
+using VariablesTemp;
 
 namespace BusinessLogic
 
@@ -23,7 +24,7 @@ namespace BusinessLogic
         /// </summary>
         public GeneroBLL()
         {
-            generos = new List<Genero>();
+            generos = DummyRepo.genero;
         }
 
         #endregion

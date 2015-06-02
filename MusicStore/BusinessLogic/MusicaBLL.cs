@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Modelos;
+using VariablesTemp;
 
 namespace BusinessLogic
 {
@@ -22,7 +23,7 @@ namespace BusinessLogic
         /// </summary>
         public MusicaBLL()
         {
-            canciones = new List<Musica>();
+            canciones = DummyRepo.musica;
         }
 
         #endregion
@@ -90,7 +91,15 @@ namespace BusinessLogic
         /// <returns>List</returns>
         public List<Musica> getCanciones()
         {
-            return canciones;
+            return canciones.OrderBy(x => x.Nombre).ToList();
+        }
+        public List<Musica> getCancionesPorAutor()
+        {
+            return canciones.OrderBy(x => x.Autor.Nombre).ToList();
+        }
+        public List<Musica> getCancionesPorGenero()
+        {
+            return canciones.OrderBy(x => x.Genero.Nombre).ToList();
         }
 
 

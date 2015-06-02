@@ -5,3 +5,12 @@ C:\Users\Jorge\Desktop\MusicStore\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\Jorge\Desktop\MusicStore\BusinessLogic\obj\Debug\BusinessLogic.pdb
 C:\Users\Jorge\Desktop\MusicStore\BusinessLogic\bin\Debug\Modelos.dll
 C:\Users\Jorge\Desktop\MusicStore\BusinessLogic\bin\Debug\Modelos.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\Modelos.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\Modelos.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\VariablesTemp.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\BusinessLogic\bin\Debug\VariablesTemp.pdb

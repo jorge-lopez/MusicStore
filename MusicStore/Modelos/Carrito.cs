@@ -13,21 +13,11 @@ namespace Modelos
         /// <summary>
         /// Música
         /// </summary>
-        public Musica Musica
+        public List<Musica> Musica
         {
             get;
             set;
         }
-
-        /// <summary>
-        /// Cantidad
-        /// </summary>
-        public int Cantidad
-        {
-            get;
-            set;
-        }
-
         #endregion
 
         #region Constructores
@@ -42,15 +32,22 @@ namespace Modelos
         /// </summary>
         /// <param name="canciones">Música</param>
         /// <param name="cantidad">Cantidad</param>
-        public Carrito(Musica canciones, int cantidad)
+        public Carrito(List<Musica> cancion)
         {
-            Musica = canciones;
-            Cantidad = cantidad;
+            Musica = cancion;
         }
 
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// Agregar a Carrito
+        /// </summary>
+        /// <param name="cancion"></param>
+        public void Agregar(Musica cancion)
+        {
+            Musica.Add(cancion);
+        }
 
         /// <summary>
         /// ToString de la Clase

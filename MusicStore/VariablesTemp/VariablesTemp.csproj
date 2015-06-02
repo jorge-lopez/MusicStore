@@ -39,19 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutorTemp.cs" />
-    <Compile Include="CarritoTemp.cs" />
-    <Compile Include="CrearTemp.cs" />
-    <Compile Include="GeneroTemp.cs" />
-    <Compile Include="MusicaTemp.cs" />
-    <Compile Include="PagoTemp.cs" />
+    <Compile Include="DummyRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
-      <Project>{126509fc-572c-4c39-8468-0e020841c311}</Project>
-      <Name>BusinessLogic</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Modelos\Modelos.csproj">
       <Project>{48011ce4-7e33-4274-b81a-a2b2c1df025d}</Project>
       <Name>Modelos</Name>

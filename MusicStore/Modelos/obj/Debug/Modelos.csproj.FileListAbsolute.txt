@@ -3,3 +3,8 @@ C:\Users\Jorge\Desktop\MusicStore\Modelos\bin\Debug\Modelos.pdb
 C:\Users\Jorge\Desktop\MusicStore\Modelos\obj\Debug\Modelos.csprojResolveAssemblyReference.cache
 C:\Users\Jorge\Desktop\MusicStore\Modelos\obj\Debug\Modelos.dll
 C:\Users\Jorge\Desktop\MusicStore\Modelos\obj\Debug\Modelos.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\Modelos\bin\Debug\Modelos.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\Modelos\obj\Debug\Modelos.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\Modelos\obj\Debug\Modelos.dll
+C:\Users\Jorge\Documents\GitHub\MusicStore\MusicStore\Modelos\obj\Debug\Modelos.pdb

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Modelos;
-
+using VariablesTemp;
 namespace BusinessLogic
 {
     public class AutorBLL
@@ -22,7 +22,7 @@ namespace BusinessLogic
         /// </summary>
         public AutorBLL()
         {
-            autores = new List<Autor>();
+            autores = DummyRepo.autores;
         }
 
         #endregion

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BusinessLogic;
-using VariablesTemp;
 using Modelos;
 
 namespace MusicStore.Controllers
@@ -14,8 +13,8 @@ namespace MusicStore.Controllers
         // GET: Autor
         public ActionResult Index()
         {
-            GeneroTemp.Inicializar();
-            return View(GeneroTemp.getMusicaporGenero());
+            MusicaBLL info = new MusicaBLL();
+            return View(info.getCancionesPorGenero());
         }
     }
 }

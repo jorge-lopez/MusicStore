@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.Mvc;
 using Modelos;
 using BusinessLogic;
-using VariablesTemp;
 
 namespace MusicStore.Controllers
 {
@@ -14,9 +13,8 @@ namespace MusicStore.Controllers
         // GET: Musica
         public ActionResult Index()
         {
-            CrearTemp.Inicializar();
-
-            return View(MusicaTemp.getMusica());
+            MusicaBLL info = new MusicaBLL();
+            return View(info.getCanciones());
         }
     }
 }

@@ -1,46 +1,50 @@
-﻿@model List<Modelos.Autor>
+﻿@model List<Modelos.Musica>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Autor";
 }
 
-
-<table>
+<h2>Música por Autor</h2>
+<table class="table">
     <tr>
 
-        <th width="15%">
+        <th>                        
             @Html.Label("Id")
             @*@Ajax.ActionLink("Song", "Alfabetico", "Musica", new AjaxOptions { UpdateTargetId = "result", InsertionMode = InsertionMode.Replace, HttpMethod = "GET" })*@
         </th>
-        <th width="27%">
-            @Html.Label("Nombre")
+        <th>
+            @Html.Label("Canción")
             @*@Ajax.ActionLink("Artist", "Alfabetico", "Musica", new AjaxOptions { UpdateTargetId = "result", InsertionMode = InsertionMode.Replace, HttpMethod = "GET" })*@
         </th>
-        <th width="15%">
-            @Html.Label("Apellido Paterno")
+        <th>
+            @Html.Label("Artista")
         </th>
         <th>
-            @Html.Label("Apellido Materno")
+            @Html.Label("Género")
+        </th>
+        <th>
         </th>
 
     </tr>
 
     @foreach (var item in Model)
     {
-
         <tr>
-            <th width="15%">
-                @item.Id
-            </th>
-            <th width="27%">
-                @item.Nombre
-            </th>
-            <th width="15%">
-                @item.ApPaterno
+            <th>
+                @Html.DisplayFor(modelItem => item.Id)
             </th>
             <th>
-                @item.ApMaterno
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Autor.Nombre)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Genero.Nombre)
+            </th>
+            <th>
+                @Html.ActionLink("Agregar a Carrito", "AgregarCarrito", "Carrito",
+                new { id = item.Id }, "")
             </th>
         </tr>
     }
-
 </table>

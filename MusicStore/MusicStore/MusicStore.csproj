@@ -162,7 +162,6 @@
     <Compile Include="Controllers\AutorController.cs" />
     <Compile Include="Controllers\CarritoController.cs" />
     <Compile Include="Controllers\GeneroController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MusicaController.cs" />
     <Compile Include="Controllers\PagoController.cs" />
     <Compile Include="Global.asax.cs">
@@ -205,9 +204,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -222,10 +218,10 @@
     <Content Include="Views\Autor\Index.cshtml" />
     <Content Include="Views\Genero\Index.cshtml" />
     <Content Include="Views\Musica\Index.cshtml" />
+    <Content Include="Views\Carrito\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Carrito\" />
     <Folder Include="Views\Pago\" />
   </ItemGroup>
   <ItemGroup>
@@ -243,10 +239,6 @@
     <ProjectReference Include="..\Modelos\Modelos.csproj">
       <Project>{48011ce4-7e33-4274-b81a-a2b2c1df025d}</Project>
       <Name>Modelos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\VariablesTemp\VariablesTemp.csproj">
-      <Project>{c2a0f4ec-c851-4024-a954-e84a46da3d6c}</Project>
-      <Name>VariablesTemp</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
