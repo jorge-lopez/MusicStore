@@ -55,14 +55,20 @@ namespace BusinessLogic
             Musica c = carrito.Find(x => x.Id == id);
             return carrito.Remove(c);
         }
+        public void EliminarTodo()
+        {
+            carrito.Clear();
+        }
 
         /// <summary>
         /// Retorna los Productos del Carrito
         /// </summary>
         /// <returns>List</returns>
         public List<Musica> getCarrito()
-        {
-            return carrito;
+        {            
+            List<Musica> temp = new List<Musica>();
+            temp.AddRange(carrito);
+            return temp;
         } 
 
         #endregion 

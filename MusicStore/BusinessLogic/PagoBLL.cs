@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Modelos;
+using VariablesTemp;
 
 namespace BusinessLogic
 {
@@ -22,7 +23,7 @@ namespace BusinessLogic
         /// </summary>
         public PagoBLL()
         {
-            pagos = new List<Pago>();
+            pagos = DummyRepo.pagos;
         }
 
         #endregion
@@ -35,7 +36,7 @@ namespace BusinessLogic
         /// <param name="id">ID del Pago</param>
         /// <param name="fechaCompra">Fecha de la Compra</param>
         /// <param name="carrito">Carrito</param>
-        public void Agregar(int id, DateTime fechaCompra, List<Carrito> carrito)
+        public void Agregar(int id, DateTime fechaCompra, List<Musica> carrito)
         {
             pagos.Add(new Pago(id, fechaCompra, carrito));
         }

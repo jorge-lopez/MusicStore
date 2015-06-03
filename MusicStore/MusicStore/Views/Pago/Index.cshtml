@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Modelos.Pago>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Pagos Realizados</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaCompra)
+        </th>
+        <th>
+
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaCompra)
+        </td>
+        <th>
+            <ul>
+                @foreach (var cancion in item.Carrito)
+                {
+                    <li>@cancion.Nombre</li>
+                }
+            </ul>
+
+        </th>
+        <td>           
+        </td>
+    </tr>
+}
+
+</table>

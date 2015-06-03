@@ -31,7 +31,7 @@ namespace Modelos
         /// <summary>
         /// Carrito de compras
         /// </summary>
-        public List<Carrito> Carrito
+        public List<Musica> Carrito
         {
             get;
             set;
@@ -52,7 +52,7 @@ namespace Modelos
         /// <param name="id">ID del Pago</param>
         /// <param name="fechaCompra">Fecha de la compra</param>
         /// <param name="carrito">Carrito de compras</param>
-        public Pago(int id, DateTime fechaCompra, List<Carrito> carrito)
+        public Pago(int id, DateTime fechaCompra, List<Musica> carrito)
         {
             Id = id;
             FechaCompra = fechaCompra;
